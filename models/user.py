@@ -1,8 +1,8 @@
 class User:
     def __init__(self):
         self.id = 1
-        self.username = "sorav"
-        self.email = "sorav@gmail.com"
+        self.username = "Satrajeet Kumar"
+        self.email = "satrajeet@gmail.com"
         self.password = "1234567890"
         self.role = "user"
 

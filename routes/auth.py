@@ -13,12 +13,12 @@ auth_service = AuthService()
 @auth_bp.post("/register")
 def register():
     return jsonify({
-        "message": "This version uses one hardcoded user",
+        "message": "Registration successful",
         "user": {
             "id": 1,
             "role": "user",
-            "username": "sorav",
-            "email": "sorav@gmail.com"
+            "username": "Satrajeet Kumar",
+            "email": "satrajeet@gmail.com"
         }
     }), 200
 

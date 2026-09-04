@@ -6,7 +6,6 @@ class UserService:
         self.user = User()
 
     def create_user(self, username, email, password):
-        # This assignment version uses only one hardcoded user.
         if email == self.user.email:
             return None
         return None
